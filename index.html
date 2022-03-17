@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start_quiz">Start Quiz</div>
+
+    <div class="quiz-box inactive">
+        <h2 class="que_text"></h2>
+        <div class="options">
+        </div>
+        <div class="quiz-footer">
+            <div class="footer-left">
+                <span class="count_que"></span> of <span class="total_que"></span> Questions
+            </div>
+            <div class="footer-right">
+                <div class="next-btn inactive">Next Question</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="result-box inactive">
+        <h2>Result</h2>
+        <div class="result">
+            <h3 class="total-que">Total Questions : <span></span></h3>
+            <h3 class="right-ans">Right Answers : <span></span></h3>
+            <h3 class="wrong-ans">Wrong Answers : <span></span></h3>
+            <h3 class="percentage">Percentage : <span></span></h3>
+        </div>
+        <div class="result-footer">
+            <div class="again-quiz">Again Quiz</div>
+            <div class="exit">Exit</div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
